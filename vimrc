@@ -56,13 +56,15 @@ endif
 
 " -------------------------------------------------------------------------
 set nu 
-set tabstop=2 
+set tabstop=3
+set shiftwidth=3 
 set autoindent 
 set equalalways 
 set statusline=[File:\ %t]\ [line\ %l\ of\ %L]\ [column\ %c\]\ %r\[FullPATH:%F]  
 set cursorline
 set scrolloff=5
 set matchpairs=(:),{:},[:],<:>
+set hlsearch
 
 
 " ========== JAVA abbreviations ========== 
